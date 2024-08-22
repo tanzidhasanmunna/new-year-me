@@ -12,6 +12,12 @@
   font-weight: 600;
   padding: 20px;
 }
+.primary-description {
+  color: var(--Dark-02, #444343);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
 .banner-container {
   background-image: url("../images/banner/banner3.png");
   background-repeat: no-repeat;
@@ -49,12 +55,6 @@
   font-weight: 700;
   margin-bottom: 14px;
 }
-.failure-description {
-  color: var(--Dark-02, #444343);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 26px; /* 162.5% */
-}
 ul {
   margin-top: 10px;
   list-style-type: none;
@@ -73,11 +73,8 @@ ul li:before {
 .my-plans {
   text-align: center;
 }
-.primary-description {
-  color: var(--Dark-03, #737272);
+.my-plan {
   text-align: center;
-  font-size: 25px;
-  font-weight: 500;
 }
 .plans-title {
   color: var(--Dark-01, #151414);
@@ -99,4 +96,44 @@ ul li:before {
 }
 .motivation-container {
   padding: 80px 800px 65px 250px;
+}
+footer{
+  background: black;
+  margin-top: 60px;
+
+}
+.footer-description{
+  padding: 130px 229px 130px 230px;
+  display: flex;
+  gap: 330px;
+}
+.subscribe-btn{
+  background-color: #005fac;
+  color: #FFF;
+  border: 0;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.email-input{
+  margin: 15px 0;
+  background-color: black;
+  width: 200px;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+
+}
+.subscribe-title{
+color: #FFF;
+font-family: "Work Sans";
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.social-link{
+  display: flex;
+  gap: 10px;
 }
